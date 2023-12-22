@@ -10,27 +10,32 @@ body {
     margin: 0 auto;
     font-family: 'Roboto', non-serif;
     min-height: 100vh;
+    max-width: 2011px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .header {
   height: 84px;
-  padding: 20px 55px;
-  background: #007765;
+  width: 100%;
+  background-color: #007765;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
   vertical-align: middle;
+  padding-left: 5%;
 }
 
 .nav {
   display: flex;
   align-items: center;
+  padding-right: 5%;
 }
 
 .nav-list {
